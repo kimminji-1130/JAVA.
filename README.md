@@ -13,7 +13,7 @@ System.out.println(sb.toString());
 ### Array.sort (오름차순)
 ### Collections.sort(내림차순)
 -----------
-## rrayList.add()
+## ArrayList.add()
 #### ArrayList의 add() 메소드는 인자로 전달된 객체를 리스트에 추가하는 역할
 <사용 방법>
 ```
@@ -21,3 +21,17 @@ System.out.println(sb.toString());
   fruits.add("apple");
   System.out.println(fruits.toString());
 ```
+------------
+##for(Object : List)
+#### List에서 차례대로 꺼내서 A에다 넣는 역할
+------------
+## append()메소드
+#### 인수로 전달된 값을 문자열로 변환 후, 해당 문자열의 마지막에 추가해주는 역할
+<사용 방법>
+```
+StringBuffer str = new StringBuffer("Java");
+System.out.println(str.append("왕이 되고 싶어요!"));
+System.out.println("append() 메소드 이후 문자열 : " + str);
+```
+<출력> Java왕이 되고 싶어요 (\n)
+Java왕이 되고 싶어요
