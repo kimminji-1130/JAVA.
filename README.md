@@ -16,8 +16,8 @@ System.out.println(sb.toString());
 ## rrayList.add()
 #### ArrayList의 add() 메소드는 인자로 전달된 객체를 리스트에 추가하는 역할
 <사용 방법>
-''' 
+```
   ArrayList<String>  fruits = new ArrayList<String> ();
   fruits.add("apple");
   System.out.println(fruits.toString());
-  '''
+```
