@@ -22,7 +22,7 @@ System.out.println(sb.toString());
   System.out.println(fruits.toString());
 ```
 ------------
-##for(Object : List)
+## for(Object : List)
 #### List에서 차례대로 꺼내서 A에다 넣는 역할
 ------------
 ## append()메소드
@@ -35,3 +35,18 @@ System.out.println("append() 메소드 이후 문자열 : " + str);
 ```
 <출력> Java왕이 되고 싶어요 (\n)
 Java왕이 되고 싶어요
+--------------
+##문자열로 받아서 소문자들 대문자로 만들기
+```
+import java.io.*;
+
+public class Hiru {
+    public static void main(String[] args) throws IOException{
+
+    	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		String a = br.readLine();
+		a = a.toUpperCase(); 
+		System.out.print(a);
+    }
+}
+```
