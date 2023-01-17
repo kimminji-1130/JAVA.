@@ -33,8 +33,7 @@ StringBuffer str = new StringBuffer("Java");
 System.out.println(str.append("왕이 되고 싶어요!"));
 System.out.println("append() 메소드 이후 문자열 : " + str);
 ```
-<출력> Java왕이 되고 싶어요 (\n)
-Java왕이 되고 싶어요
+// <출력> Java왕이 되고 싶어요 (\n) Java왕이 되고 싶어요
 --------------
 ##문자열로 받아서 소문자들 대문자로 만들기
 ```
