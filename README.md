@@ -54,4 +54,4 @@ public class Hiru {
 #### a[i] = Integer.parseInt(st.nextToken());  //Int로 입력하는 경우
 
 ## 두 배열을 비교하여 값이 같은지 비교하는 함수
-####Arrays.equals(a, )
+#### Arrays.equals(a, )
