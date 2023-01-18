@@ -49,3 +49,9 @@ public class Hiru {
     }
 }
 ```
+### BufferedReader를 활용하여, 배열을 입력하기
+#### int[] a = new int[8];
+#### a[i] = Integer.parseInt(st.nextToken());  //Int로 입력하는 경우
+
+## 두 배열을 비교하여 값이 같은지 비교하는 함수
+####Arrays.equals(a, )
