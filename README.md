@@ -59,3 +59,12 @@ public class Hiru {
 ## Math함수
 ### Math.min(a, b)
 #### a와 b 사이의 값이 짧은 것을 출력
+-------------------------------------
+## boolean
+#### true나 false로만 나타낼 수 있다.
+#### ex) boolean chk = true;
+---------
+## 팰린드롬수
+1. str.charAt(i) != str.charAt(str.length() -1  - i))
+#### 입력받은 변수(str)의 첫번째 수와 변수의 길이 -1 -i를 하면 마지막수를 비교해서 boolean으로 비교하는 방법
+-----------
