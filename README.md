@@ -68,3 +68,27 @@ public class Hiru {
 1. str.charAt(i) != str.charAt(str.length() -1  - i))
 #### 입력받은 변수(str)의 첫번째 수와 변수의 길이 -1 -i를 하면 마지막수를 비교해서 boolean으로 비교하는 방법
 -----------
+## 입력 받는 문자들 길이순으로 배열
+```
+Arrays.sort(word, new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                if(o1.length() > o2.length()) return 1;
+                else if(o1.length() == o2.length()) return 0;
+                else return -1;
+            }
+        });
+```
+#### word라는 배열에 입력 받은 값들을 비교하여 순서대로 값 저장
+---------------
+## 길이가 같은 문자들을 사전 순으로 정렬하는 방법
+```
+for (int i = 0; i < n; i++) {
+            int j;
+            for (j = i+1; j < n; j++) {
+                if(word[i].length() != word[j].length()) break;
+            }
+            Arrays.sort(word, i,j);
+            i = j-1;
+        }
+```
