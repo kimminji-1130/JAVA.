@@ -92,3 +92,10 @@ for (int i = 0; i < n; i++) {
             i = j-1;
         }
 ```
+-------------------
+## 우선 순위 큐
+#### 일반 큐는 들어간 순서대로 나오는 (일방통행)자료구조라면 우선 순위 큐는 들어간 순서에 상관없이 일정한 규칙에 따라 우선 순위를 선정하고, 우선순위가 가장 높은 데이터가 가장 먼저 나온다.
+### add(); peek(); poll(); 등의 메소드 사용
+#### Integer와 같은 숫자는 Collections.reversOrder()를 사용
+#### ex) PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+--------------------
