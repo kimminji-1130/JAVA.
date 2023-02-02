@@ -99,3 +99,9 @@ for (int i = 0; i < n; i++) {
 #### Integer와 같은 숫자는 Collections.reversOrder()를 사용
 #### ex) PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
 --------------------
+## ArrayList
+'''
+ArrayList<String> list=new ArrayList<>(); //ArraryList 생성
+list.add("철수"); // 리스트에 "철수"추가
+```
+#### 변수명.remove(위치 or "문자");
